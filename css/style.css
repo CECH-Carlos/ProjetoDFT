@@ -1,8 +1,9 @@
 .nav-btn {
     text-decoration: none;
+    display: flex;
 }
 
 .logo {
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
 }
