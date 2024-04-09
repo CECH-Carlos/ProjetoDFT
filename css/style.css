@@ -1,9 +1,32 @@
-.nav-btn {
-    text-decoration: none;
+.navbar {
+    background-color: #216a9e;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+.navbar ul {
     display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn:hover{
+    color: black;
+    text-decoration: none;
 }
 
 .logo {
+    display: block;
     width: 100px;
     height: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 30%;
+    border-radius: 50%;
 }
