@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #216a9e;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
 }
@@ -12,13 +12,40 @@
     padding: 16px;
 }
 
-.nav-btn {
+.nav-btn-top {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-right: 700px;
+}
+
+.nav-btn-jg {
+    position: relative;
     color: white;
     text-decoration: none;
 }
 
+.nav-btn-mid {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn-adc {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn-sup {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-right: 5000px;
+}
+
 .nav-btn:hover{
-    color: black;
+    color: rgb(47, 245, 47);
     text-decoration: none;
 }
 
@@ -29,4 +56,15 @@
     margin-right: 100px;
     border-top-left-radius: 30%;
     border-radius: 50%;
+}
+
+.time, .top, .jg, .mid, .adc, .sup {
+    font-family: beaufort;
+    color: rgb(240, 204, 2);
+    text-align: center;
+    text-shadow: 
+        -1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000;
 }
